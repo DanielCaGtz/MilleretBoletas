@@ -35,7 +35,7 @@ $config['modules_locations'] = array(
 | a PHP script and you can easily do that on your own.
 |
 */
-$nombre_ruta_host = '/milleret_boletas/';
+$nombre_ruta_host = '/';
 $config['nombre_ruta_host'] = $nombre_ruta_host;
 $config['base_url'] = ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == "on") ? "https" : "http").'://'.$_SERVER['HTTP_HOST'].$nombre_ruta_host;
 
