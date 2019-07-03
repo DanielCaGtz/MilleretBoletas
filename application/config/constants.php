@@ -85,7 +85,8 @@ defined('EXIT__AUTO_MIN')      OR define('EXIT__AUTO_MIN', 9); // lowest automat
 defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
 
 //Modificar con ruta completa del sistema hasta la carpeta raíz
-defined('FILE_ROUTE_FULL')     OR define('FILE_ROUTE_FULL','/usr/local/var/www/milleret_boletas/');
+// defined('FILE_ROUTE_FULL')     OR define('FILE_ROUTE_FULL','/usr/local/var/www/milleret_boletas/');
+defined('FILE_ROUTE_FULL')     OR define('FILE_ROUTE_FULL','/home/u465027285/public_html/milleret_boletas/');
 
 //Versión del sistema a utilizar
 defined('CURRENT_VERSION')		OR define('CURRENT_VERSION','1.2.1');
@@ -128,7 +129,7 @@ defined('USE_HASH')				OR define('USE_HASH',FALSE);
 defined('PDF_DOWNLOAD')			OR define('PDF_DOWNLOAD',TRUE);
 
 //Define la URL que se usará para descargar PDF's (en caso de aplicar). Ruta completa + /consulta_boleta/
-defined('URL_PDF_SOURCE')		OR define('URL_PDF_SOURCE',"http://milleret.softandgo.com/consulta_boleta/");
+defined('URL_PDF_SOURCE')		OR define('URL_PDF_SOURCE',"http://softandgo.com/milleret_boletas/consulta_boleta/");
 
 //Define clave de API para descarga de PDF's
 defined('CURLOPT_USERPWD_')		OR define('CURLOPT_USERPWD_',"d040be8028904fec80d42681aea06381");

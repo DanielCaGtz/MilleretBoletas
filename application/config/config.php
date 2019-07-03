@@ -328,7 +328,7 @@ $config['cache_query_string'] = FALSE;
 | http://codeigniter.com/user_guide/libraries/encryption.html
 |
 */
-$config['encryption_key'] = 'MIGfMA0GCSqGSoAlSpdmCS82dmcH7aIV61rAMBv9raApwOSncSMd73jSYi7ayuceZ7machu2ekuput7aruPe2A5ETbb3jKkvloXlPG8bD7EiT/jLtfBUyueVvpu7QYYdXQIDAQAB';
+$config['encryption_key'] = 'MOozMwFtIp8HmoirmRvKWSDvdPnsr5BuD2M3doc155Eb5LWk1Ii4iW5S7MwDmIpnmBMFjQEtv2RtJdObEX3OckZKIegFCCpw5Eccn4BadAUsxDqB2uEEwGiRVbMKP9ylUezSDeOaljQ9';
 
 /*
 |--------------------------------------------------------------------------
@@ -382,7 +382,7 @@ $config['encryption_key'] = 'MIGfMA0GCSqGSoAlSpdmCS82dmcH7aIV61rAMBv9raApwOSncSM
 |
 */
 $config['sess_driver'] = 'files';
-$config['sess_cookie_name'] = '7ayuceZ7macheYbmIJuput7ar5EasWoso9aMC8s';
+$config['sess_cookie_name'] = 'yyJBSjXgFUN9Ok0zEQj5m9qbBeWw4OQZE3Vc3eugr';
 $config['sess_use_database']	= FALSE;
 $config['sess_expiration'] = 0;
 $config['sess_save_path'] = NULL;
