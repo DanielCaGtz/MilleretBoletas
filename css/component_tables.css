@@ -1,0 +1,123 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@font-face {
+	font-family: 'codropsicons';
+	src:url('../fonts/codropsicons/codropsicons.eot');
+	src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
+		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
+		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+	font-family: 'Lato', Arial, sans-serif;
+	color: #7c8d87;
+	background: #f8f8f8;
+}
+
+a {
+	color: #3169bc;
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	color: #7c8d87;
+}
+
+/* Component styles */
+@font-face {
+	font-family: 'Blokk';
+	src: url('../fonts/blokk/BLOKKRegular.eot');
+	src: url('../fonts/blokk/BLOKKRegular.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/blokk/BLOKKRegular.woff') format('woff'),
+		 url('../fonts/blokk/BLOKKRegular.svg#BLOKKRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.component {
+	line-height: 1.5em;
+	margin: 0 auto;
+	padding: 2em 0 3em;
+	width: 90%;
+	max-width: 1000px;
+	overflow: hidden;
+}
+.component .filler {
+	font-family: "Blokk", Arial, sans-serif !important;
+	color: #d3d3d3;
+}
+table {
+    border-collapse: collapse;
+    margin-bottom: 3em;
+    width: 100%;
+    background: #fff;
+}
+td, th {
+    padding: 0.75em 1.5em;
+    text-align: left;
+}
+th {
+    background-color: #192c74;
+    font-weight: bold;
+    color: #fff;
+    white-space: nowrap;
+}
+tbody tr:nth-child(2n-1) {
+    background-color: #f5f5f5;
+    transition: all .125s ease-in-out;
+}
+tbody tr:hover {
+    background-color: rgba(129, 164, 208, 0.3);
+}
+
+.btn-warning {
+	background-color: #192c74;
+	border-color: #192c74;
+	color: #fff;
+	height: 50px !important;
+	font-size: 20px !important;
+}
+.btn {
+	border-radius: 3px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: 1px solid transparent;
+}
+.btn-block {
+	display: block;
+	width: 100%;
+}
+.btn-group-lg>.btn, .btn-lg {
+	padding: 10px 16px;
+	font-size: 18px;
+	line-height: 1.3333333;
+	border-radius: 6px;
+}
+.btn {
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+.col-md-2{
+	width: 300px;
+}
+
