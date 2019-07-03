@@ -129,7 +129,7 @@ defined('USE_HASH')				OR define('USE_HASH',FALSE);
 defined('PDF_DOWNLOAD')			OR define('PDF_DOWNLOAD',TRUE);
 
 //Define la URL que se usará para descargar PDF's (en caso de aplicar). Ruta completa + /consulta_boleta/
-defined('URL_PDF_SOURCE')		OR define('URL_PDF_SOURCE',"http://softandgo.com/milleret_boletas/consulta_boleta/");
+defined('URL_PDF_SOURCE')		OR define('URL_PDF_SOURCE',"http://milleret.softandgo.com/consulta_boleta/");
 
 //Define clave de API para descarga de PDF's
 defined('CURLOPT_USERPWD_')		OR define('CURLOPT_USERPWD_',"d040be8028904fec80d42681aea06381");
