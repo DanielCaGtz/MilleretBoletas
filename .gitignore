@@ -1,2 +1,4 @@
-
+application/config/config.php
+application/config/database.php
+application/config/constants.php
 application/logs/log-2015-03-30.php
