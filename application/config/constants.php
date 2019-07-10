@@ -85,8 +85,11 @@ defined('EXIT__AUTO_MIN')      OR define('EXIT__AUTO_MIN', 9); // lowest automat
 defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
 
 //Modificar con ruta completa del sistema hasta la carpeta raíz
-// defined('FILE_ROUTE_FULL')     OR define('FILE_ROUTE_FULL','/usr/local/var/www/milleret_boletas/');
-defined('FILE_ROUTE_FULL')     OR define('FILE_ROUTE_FULL','/home/u465027285/public_html/milleret_boletas/');
+$whitelist = array('127.0.0.1', '::1');
+if (in_array($_SERVER['REMOTE_ADDR'], $whitelist))
+  defined('FILE_ROUTE_FULL')     OR define('FILE_ROUTE_FULL','/usr/local/var/www/milleret_boletas/');
+else
+  defined('FILE_ROUTE_FULL')     OR define('FILE_ROUTE_FULL','/home/u465027285/public_html/milleret_boletas/');
 
 //Versión del sistema a utilizar
 defined('CURRENT_VERSION')		OR define('CURRENT_VERSION','1.2.1');
